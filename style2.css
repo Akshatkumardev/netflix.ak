@@ -1,0 +1,143 @@
+.section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.leftpt1{
+    color :white;
+}
+.rightpt2{
+    color:white;
+}
+.rightpt1 video{
+    position: absolute;
+    height: 213px;
+}
+.rightpt1 img, .rightpt3 img, .left2 img{
+    height: 395px;
+    z-index: -1;
+    position: relative;
+    z-index: 10;
+}
+
+.leftpt1 h1{
+    font-size: 55px;
+    font-weight: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.leftpt1 p, .rightpt2 p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.rightpt2 h1{
+    font-size: 48px;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.leftpt2 img{
+    height: 400px;
+}
+.video1{
+    right: 210px;
+    top: 142px;
+}
+.video2{
+    right: 279px;
+    top: 102px;
+    height: 180px;
+    position: absolute;
+}
+.pt1{
+    gap: 100px;
+}
+.questionbox h1{
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 25px;
+    align-items: center;
+    margin-top: 40px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.option{
+    color: white;
+    background-color: rgb(45, 45, 45);
+    padding: 30px;
+    width: 71%;
+    margin: 5px;
+    height: 20px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    
+}
+.option:hover{
+    background-color: rgb(67, 67, 67);
+    transition: ease;
+}
+.left{
+    width: 50%;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 50px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.belowqbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.belowqbox p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.contact{
+    color: rgb(179, 179, 179);
+    display: flex;
+    padding: 100px 143px ;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    font-weight: 200;
+}
+.contactno p{
+    margin-left: 20px;
+}
+.otheroptions{
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+    padding: 20px;
+}
+.col{
+    padding-right: 120px;
+}
+.col li{
+    margin-bottom: 20px;
+}
+
+.lang2{
+    margin-left: 20px;
+    margin-top: -10px;
+    background-color: rgb(21, 21, 21);
+}
