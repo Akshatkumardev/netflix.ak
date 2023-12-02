@@ -1,0 +1,79 @@
+@media only screen and (max-width: 500px) {
+
+    .box,
+    .main {
+        height: 200vh;
+        width: 125vh;
+    }
+
+    .below,
+    nav,
+    .gap,
+    .section {
+        width: 125vh;
+    }
+
+    nav {
+        gap: 510px;
+        height: 300px;
+    }
+
+    .maintexts {
+        left: 40px;
+        top: 70vh;
+    }
+
+    .maintexts h1 {
+        display: flex;
+        left: 5px;
+    }
+
+    .maintexts .bottom {
+        width: 120vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightpt1 img,
+    .rightpt3 img,
+    .left2 img {
+        height: 365px;
+    }
+
+    .video1 {
+        top: 330px;
+        left: 308px;
+    }
+
+    .video2 {
+        top: 270px;
+        left: 345px;
+    }
+
+    .rightpt3 img {
+        margin-top: 100px;
+    }
+
+    .contact {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .otheroptions {
+        margin-right: 20px;
+
+    }
+
+}
